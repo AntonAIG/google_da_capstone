@@ -11,3 +11,8 @@ First, the marketing analytics team will review this report and understand what 
 
 #### Product description:
 Bellabeat's [Ivy](https://bellabeat.com/ivy/) is a smart device that monitors and records the heart beat rate, sleep cycle, respiratory rate, cardiac coherence, and pyhsical and mental activity of its users. With a corresponding mobile app, you can track your daily activity cycle.
+
+## Preparing the data
+Access to the data can be obtained [here](https://github.com/AntonAIG/google_da_capstone/blob/main/datasets/prepare_readme.md)
+The data contains daily, hourly, and munite-level output of: Activity, Calories, heartrate, Intensities, METs, Sleep, Steps, and weigth log info.
+The file format is *csv.* The data was taken from `03.12.2016` - `05.12.2016`. The datasets are in wide and long formats.
