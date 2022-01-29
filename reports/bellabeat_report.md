@@ -18,6 +18,7 @@ The metadata can be found [here](https://www.fitabase.com/media/1930/fitabasedat
 The data contains daily, hourly, and munite-level output of: Activity, Calories, heartrate, Intensities, METs, Sleep, Steps, and weigth log info.
 The file format is *csv.* The data was taken from `03.12.2016` - `05.12.2016`. The datasets are in wide and long formats.
 The data credible but incomplete. All tables are sorted according to the `customer id` in assending order. For our particular device, the key parameters include: customer id, datetime, heart rate, intensities, steps, sleep, and calories.
+![datamodel](https://github.com/AntonAIG/google_da_capstone/blob/main/bellabeat_datamodel.png)
 
 ## Processing the data
 The data was checked for errors in excel.
