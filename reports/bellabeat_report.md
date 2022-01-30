@@ -41,6 +41,23 @@ First, the individual data was merged according to the figure above. Using this 
 
 With data visualization capabilities in R, we can showcase the best relatioships in the data and tell the story around them. Using the observation, we can further ask some questions that can uncover some other relationships. Three relationships were explored:
 * Relationship between total daily calories and the total daily steps taken
-* Relationship between the total minutes asleep and the total time in bed
-* Relationship between the total minutes asleep and the total minutes of sedentary living.
+![figure1](https://github.com/AntonAIG/google_da_capstone/blob/main/reports/totalsteps_calories.png)
+From this figure, we can see that there is a positive correlation between Total steps and Calories. Therefore, the more active we are, the more we burn calories.
 
+* Relationship between the total minutes asleep and the total time in bed
+![figure2](https://github.com/AntonAIG/google_da_capstone/blob/main/reports/timeinbed_minutesasleep.png)
+This linear relationship shows that more time in bed leads to more sleep.
+
+* Relationship between the total minutes asleep and the total minutes of sedentary living.
+![figure3](https://github.com/AntonAIG/google_da_capstone/blob/main/reports/minutesasleep_sedentaryminutes.png)
+Here we can clearly see the negative relationship between Sedentary Minutes and Sleep time.
+
+### Conclusion and recommendations
+It is very benefitial to understand trends in every business by collecting unbiased data about the particular products that needs improvement, and customer responses to individual products and features. In addition, we need to also understand how our products affects their daily life and showcase how our device can improve certain aspects of their life.
+In the case of Bellabeat, our observation shows that:
+
+* If users want to lose weight, it’s probably a good idea to control daily calorie consumption. Bellabeat can suggest some ideas for low-calorie lunch and dinner.
+* Most activity happens between 5 pm and 7 pm - I suppose, that people go to a gym or for a walk after finishing work. Bellabeat can use this time to remind and motivate users to go for a run or walk.
+* If users want to improve their sleep, Bellabeat should consider using app notifications to go to bed.
+
+Thanks a lot for going through this analysis.
