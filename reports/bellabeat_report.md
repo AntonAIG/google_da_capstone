@@ -18,9 +18,29 @@ The metadata can be found [here](https://www.fitabase.com/media/1930/fitabasedat
 The data contains daily, hourly, and munite-level output of: Activity, Calories, heartrate, Intensities, METs, Sleep, Steps, and weigth log info.
 The file format is *csv.* The data was taken from `03.12.2016` - `05.12.2016`. The datasets are in wide and long formats.
 The data credible but incomplete. All tables are sorted according to the `customer id` in assending order. For our particular device, the key parameters include: customer id, datetime, heart rate, intensities, steps, sleep, and calories.
+
 ![datamodel](https://github.com/AntonAIG/google_da_capstone/blob/main/bellabeat_datamodel.png)
 
 ## Processing the data
 The data was checked for errors in excel.
 During data processing, I want clean the dataset from the individual tables and build a master table with all the information combined. The data entries will be in minutes resolutions. In other to achieve this, I have to use SQL to clean the data individually, and then join them.
 This table will further be resolved to daily observations and paired with the activity and sleep tables. SQL will be used here too.
+
+The dataset was futher processed in RStudio. Further summary statistics was carried out here to understand the relationships in the features of our dataset.
+* We can observe from the summary statistics that most of the 33 participants were lightly active
+* The average sleep per participant was 7 hours.
+* The average duration spent in sedentary lifestyle is 991 minutes. It's important for Bellabeats to suggest possible ways of reducing this to their customers.
+* With an average number of steps at 7638 per day, this number is lower than the recommended number of 10000 by the WHO. At this number, the customers would have to move about more, either by going for a walk or by jogging.
+
+## Analyzing the data
+
+The dataset shows some common information: datetime and participants id, and specific feature related values according to the figure above
+First, the individual data was merged according to the figure above. Using this new table, we can subsequently carryon with our visualization.
+
+## Data visualization
+
+With data visualization capabilities in R, we can showcase the best relatioships in the data and tell the story around them. Using the observation, we can further ask some questions that can uncover some other relationships. Three relationships were explored:
+* Relationship between total daily calories and the total daily steps taken
+* Relationship between the total minutes asleep and the total time in bed
+* Relationship between the total minutes asleep and the total minutes of sedentary living.
+
